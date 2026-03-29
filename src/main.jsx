@@ -16,12 +16,7 @@ const router = createBrowserRouter([
   {
     path: "/Hammad",
     element: <Hammad />,
-  },
-
-  {
-    path: "/Bintang",
-    element: <Bintang />,
-  },
+  }
   
 ]);
 
