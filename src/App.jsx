@@ -1,6 +1,6 @@
 import profilImg from "./image/profile.jpg";
 import profilerImg from "./image/fotoku.jpeg";
-import profilNathan from "./image/foto-profil.jpg";
+import profilNathan from "./image/foto-profil.JPG";
 import { useState } from "react";
 import fotoRaihan from "./image/raihan.jpg";
 import { Link } from "react-router-dom";
