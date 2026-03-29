@@ -1,3 +1,3 @@
 export default function HomePages () {
-  return <div>Hello, World!</div>
+  return <div>INI HOMEEPAGESS</div>
 }
