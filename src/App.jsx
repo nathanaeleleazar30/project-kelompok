@@ -1,6 +1,6 @@
 import profilImg from "./image/profile.jpg";
 import profilerImg from "./image/fotoku.jpeg";
-
+import profilNathan from "./image/foto-profil.jpg";
 import { useState } from "react";
 
 const teamData = [
@@ -14,7 +14,7 @@ const teamData = [
     name: "Nathanael Eleazar Handata",
     role: "253140700111051",
     username: "Nathan",
-    image: "https://i.pravatar.cc/150?img=2",
+    image: profilNathan,
   },
   {
     name: "Mochammad Bintang Fatahillah",
