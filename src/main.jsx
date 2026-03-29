@@ -8,6 +8,9 @@ import Hammad from './pages/Hammad.jsx';
 import Bintang from './pages/Bintang.jsx';
 import ProfilNathanael from './pages/Nathan.jsx'; // Nama import kamu
 
+// TAMBAHAN: Import file mahakaryamu
+import ProfileRaihan from './pages/Raihan.jsx';
+
 const router = createBrowserRouter([
   // 1. TAMBAHKAN RUTE INI AGAR HALAMAN UTAMA (APP.JSX) MUNCUL
   {
@@ -20,7 +23,6 @@ const router = createBrowserRouter([
     path: "/Nathan", // Saya sesuaikan jadi /Nathan agar sama dengan username di App.jsx
     element: <ProfilNathanael />, // Pakai nama komponen yang sudah di-import
   },
-
   {
     path: "/Hammad",
     element: <Hammad />,
@@ -28,6 +30,11 @@ const router = createBrowserRouter([
   {
     path: "/Bintang",
     element: <Bintang />
+  },
+  // TAMBAHAN: Rute agar profilmu bisa dibuka dari halaman utama
+  {
+    path: "/Raihan",
+    element: <ProfileRaihan />
   },
 ]);
 
