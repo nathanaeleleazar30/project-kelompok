@@ -1,5 +1,6 @@
 import profilImg from "./image/profile.jpg";
 import profilerImg from "./image/fotoku.jpeg";
+import fotoRaihan from "./image/raihan.jpg";
 import { Link } from "react-router-dom";
 
 const teamData = [
@@ -25,7 +26,7 @@ const teamData = [
     name: "Raihan Feriand Allam",
     role: "253140701111011",
     username: "Raihan",
-    image: "https://i.pravatar.cc/150?img=4",
+    image: fotoRaihan
   },
 ];
 
